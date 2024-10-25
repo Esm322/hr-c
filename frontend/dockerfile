@@ -1,12 +1,12 @@
 FROM node:alpine as build
 
-WORKDIR ./
+WORKDIR /usr/frontend
 
 COPY package.json package-lock.json
 
 RUN npm install
 
-COPY . .
+COPY ./ ./
 
 RUN npm run build
 
