@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 })
 
-const URL = 'http://localhost:5000/api/feedback';
+const URL = '/api/feedback';
 
 const stickyTitles = document.querySelectorAll('.sticky');
 const form = document.querySelector('.form');
