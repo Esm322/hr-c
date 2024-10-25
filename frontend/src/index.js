@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 })
 
-const URL = '/api/feedback';
+const URL = 'http://87.228.36.135/api/feedback';
 
 const stickyTitles = document.querySelectorAll('.sticky');
 const form = document.querySelector('.form');
