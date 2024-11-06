@@ -1,6 +1,6 @@
 FROM node:alpine as build
 
-WORKDIR /frontend
+# WORKDIR /frontend
 
 COPY package.json package-lock.json ./
 
