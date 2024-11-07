@@ -3,7 +3,7 @@ import hr from './assets/img/hr.svg';
 import favicon from './assets/img/favicon.svg';
 import checkmarkSVG from './assets/img/checkmark.svg';
 
-const URL = 'http://localhost:5000/api/feedback';
+const URL = 'http://176.114.79.119/api/feedback';
 
 const burgerBtn = document.querySelector('.menu__btn');
 const burgerWrapper = document.querySelector('.hamburger-menu');
