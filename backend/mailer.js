@@ -1,11 +1,15 @@
 const express = require('express');
 const cors = require('cors');
-const port = process.env.PORT || 8000;
+const port = 8000;
 const nodemailer = require('nodemailer');
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+app.get('/', async (req, res) => {
+  res.send("mailer")
+})
 
 app.post('/feedback', async (req, res) => {
   try {
