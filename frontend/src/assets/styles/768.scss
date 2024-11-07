@@ -58,6 +58,10 @@
     line-height: 25px;
   }
 
+  .services__item:first-child .services__item-title {
+    padding-right: 0;
+  }
+
   .services__item-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,7 +86,7 @@
     margin-right: 10px;
   }
 
-  .services__item-second:nth-child(-n + 4) {
+  .services__item-second:nth-child(-n + 6) {
     margin-bottom: 10px;
   }
 

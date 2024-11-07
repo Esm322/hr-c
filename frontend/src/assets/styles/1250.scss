@@ -15,6 +15,10 @@
     font-size: 16px;
   }
 
+  .services__item:first-child .services__item-title {
+    padding-right: 70px;
+  }
+
   .stages__list {
     height: 190px;
   }
