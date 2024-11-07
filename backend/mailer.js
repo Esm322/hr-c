@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post('/api/feedback', async (req, res) => {
+app.post('/feedback', async (req, res) => {
   try {
     const { fullname, companyName, email, phone, description } = req.body;
 

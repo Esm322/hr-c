@@ -3,11 +3,10 @@ import hr from './assets/img/hr.svg';
 import favicon from './assets/img/favicon.svg';
 import checkmarkSVG from './assets/img/checkmark.svg';
 
-const URL = '/api/feedback';
+const URL = '/feedback';
 
 const burgerBtn = document.querySelector('.menu__btn');
 const burgerWrapper = document.querySelector('.hamburger-menu');
-const burgerMenu = document.querySelector('.menu__box');
 const burgerLinks = document.querySelectorAll('.menu__item');
 const stickyTitles = document.querySelectorAll('.sticky');
 const form = document.querySelector('.form');
