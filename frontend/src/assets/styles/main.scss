@@ -91,7 +91,8 @@ $item__padding: 15px;
   z-index: 9998;
   width: 100%;
   margin-bottom: $section__offset;
-  background-color: #fff;
+  background-color: rgba(246, 247, 250, 0.3);
+  backdrop-filter: blur(4px);
   border-radius: 0 0 10px 10px;
   box-shadow: 0 1px 10px;
 }
