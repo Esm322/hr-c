@@ -3,7 +3,7 @@ import hr from './assets/img/hr.svg';
 import favicon from './assets/img/favicon.svg';
 import checkmarkSVG from './assets/img/checkmark.svg';
 
-const URL = '/api/feedback';
+const URL = 'https://api.hr-consultingkrd.ru/feedback';
 
 const burgerBtn = document.querySelector('.menu__btn');
 const burgerWrapper = document.querySelector('.hamburger-menu');
