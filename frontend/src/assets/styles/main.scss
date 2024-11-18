@@ -112,6 +112,10 @@ $item__padding: 15px;
   display: none;
 }
 
+.nav-links {
+  visibility: hidden;
+}
+
 .nav__list {
   display: flex;
 }
@@ -580,10 +584,6 @@ $item__padding: 15px;
 
 .checkmark--active {
   visibility: visible;
-}
-
-.overflow--off {
-  overflow: hidden;
 }
 
 @import "1250.scss";

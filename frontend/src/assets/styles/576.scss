@@ -7,94 +7,90 @@
     display: none;
   }
 
+// burger //
   .hamburger-menu {
     position: fixed;
     display: block;
-    top: 5px;
-    right: 20px;
-    width: 28px;
-    height: 26px;
-    z-index: 1;
-  }
-
-  #menu__toggle {
-    opacity: 0;
-  }
-
-  #menu__toggle:checked+.menu__btn>span {
-    transform: rotate(45deg);
-  }
-
-  #menu__toggle:checked+.menu__btn>span::before {
-    top: 0;
-    transform: rotate(0deg);
-  }
-
-  #menu__toggle:checked+.menu__btn>span::after {
-    top: 0;
-    transform: rotate(90deg);
-  }
-
-  #menu__toggle:checked~.menu__box {
-    right: 0;
-  }
-
-  .menu__btn {
-    position: fixed;
     top: 25px;
     right: 20px;
-    width: 28px;
-    height: 26px;
-    cursor: pointer;
     z-index: 1;
+    width: 40px;
+    height: 40px;
   }
 
-  .menu__btn>span,
-  .menu__btn>span::before,
-  .menu__btn>span::after {
+  .custom-hamburger {
     display: block;
     position: absolute;
-    width: 100%;
+    width: 30px;
     height: 3px;
     background-color: #0d47a1;
     border-radius: 15px;
-    transition-duration: .25s;
+    transition-duration: .3s;
   }
 
-  .menu__btn>span::before {
+  .custom-hamburger:first-child {
     content: '';
     top: -8px;
   }
 
-  .menu__btn>span::after {
+  .custom-hamburger:last-child {
     content: '';
     top: 8px;
   }
 
-  .menu__box {
-    display: block;
+  .hamburger--active:first-child {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  .hamburger--active:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger--active:last-child {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .nav-links {
     position: fixed;
     top: 0;
-    right: -100%;
-    width: 40vh;
+    right: 0;
+    width: 0;
     height: 100vh;
     margin: 0;
-    padding: 50px 0 0 0;
+    padding-top: 50px;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(246, 247, 250, 0.9);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-    transition-duration: .5s;
+    transition-duration: 0.3s;
   }
 
-  .menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: #333;
+  .nav-links__item {
+    visibility: hidden;
+    color: #000;
     font-size: 20px;
     font-weight: 700;
-    transition-duration: .5s;
   }
 
+  .nav-links__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .show-menu {
+    visibility: visible;
+    position: fixed;
+    right: 0;
+    width: 40vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: .3s;
+
+    .nav-links__item {
+      visibility: visible;
+    }
+  }
+// ----- //
   .services__item:first-child {
     margin-bottom: 25px;
     padding-bottom: 0;
@@ -221,4 +217,9 @@
   .footer__nav .nav__link {
     font-size: 14px;
   }
+
+  .overflow--off {
+    overflow: hidden;
+  }
 }
+
