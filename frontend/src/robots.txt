@@ -1,2 +1,2 @@
 User-agent: *
-Allow: /
+Allow: /https://hr-consultingkrd.ru/
