@@ -1,5 +1,5 @@
 import style from './assets/styles/main.scss';
-import hr from './assets/img/hr.svg';
+// import hr from './assets/img/hr.svg';
 import checkmarkSVG from './assets/img/checkmark.svg';
 import aboutImg from './assets/img/about.jpg';
 import robot from './robots.txt';
