@@ -3,6 +3,43 @@
     margin-bottom: 30px;
   }
 
+  .about__wrapper-content {
+    padding: 0 22%;
+    background-position: center 25%;
+  }
+
+  .about__wrapper-bg {
+    padding: 10% 4%;
+  }
+
+  .about__about-company {
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+  }
+
+  .about__about-company:first-child {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .about__about-company:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .about__item {
+    padding: 10px 5px;
+    width: calc((100% - 20px) / 3);
+    background-color: #f6f7fa;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .about__item:not(:last-child) {
+    margin-right: 10px;
+  }
+
   .services__services-title {
     font-size: 18px;
   }
@@ -26,6 +63,10 @@
     width: calc(100% / 3);
     height: 100%;
     padding: 0 10px;
+  }
+
+  .stages__item:nth-child(3) {
+    padding-right: 0;
   }
 
   .stages__item-wrapper-stage {
@@ -55,6 +96,10 @@
 
   .stages__item:nth-child(n - 3) {
     margin-bottom: 10px;
+  }
+
+  .contacts__form-btn {
+    padding: 20px 40px;
   }
 }
 

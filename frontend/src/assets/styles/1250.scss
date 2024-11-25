@@ -4,11 +4,41 @@
   }
 
   .container {
-    max-width: 992px;
+    max-width: 1250px;
   }
 
   .header__container {
     padding: 5px 20px;
+  }
+
+  .about__wrapper-content {
+    padding: 0 20%;
+    background-position: center 35%;
+    background-size: cover;
+  }
+
+  .about__wrapper-bg {
+    padding: 10% 10%;
+  }
+
+  .about__about-company {
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+  }
+
+  .about__about-company:first-child {
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  .about__about-company:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .services__about-services {
+    font-size: 16px;
   }
 
   .services__item-second-text {
