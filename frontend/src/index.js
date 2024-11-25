@@ -1,10 +1,10 @@
 import style from './assets/styles/main.scss';
-// import hr from './assets/img/hr.svg';
-import checkmarkSVG from './assets/img/checkmark.svg';
+import hr from './assets/img/hr.svg';
+import favi from './assets/img/favicon.ico'
 import aboutImg from './assets/img/about.jpg';
+import checkmarkSVG from './assets/img/checkmark.svg';
 import robot from './robots.txt';
 import sitemap from './sitemap.xml';
-import favi from './assets/img/favicon.ico'
 
 const URL = 'https://api.hr-consultingkrd.ru/feedback';
 
