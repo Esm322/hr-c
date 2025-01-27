@@ -146,16 +146,16 @@ $item__padding: 15px;
 
 .about__wrapper-content {
   margin-bottom: 10px;
-  padding: 0 20%;
+  padding: 0 27%;
   border-radius: 15px;
   background-image: url('../img/about.jpg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 30%;
   background-size: 100%;
 }
 
 .about__wrapper-bg {
-  padding: 10% 5%;
+  padding: 20% 5%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -167,7 +167,7 @@ $item__padding: 15px;
 
 .about__about-company:first-child {
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 
@@ -181,14 +181,14 @@ $item__padding: 15px;
 
 .about__item {
   padding: 10px 5px;
-  width: calc((100% - 40px) / 3);
+  width: calc((100% - 10px) / 2);
   background-color: #f6f7fa;
   border-radius: 15px;
   box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .about__item:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .about__item-title {
@@ -226,6 +226,7 @@ $item__padding: 15px;
 }
 
 .services__list {
+  padding: 25px 0;
   border-top: 1px solid rgba(89, 89, 92, 0.3);
   border-bottom: 1px solid rgba(89, 89, 92, 0.3);
 }
@@ -233,28 +234,30 @@ $item__padding: 15px;
 .services__item {
   display: flex;
   justify-content: end;
-  padding-bottom: 25px;
 }
 
 .services__item:not(:last-child) {
   margin-bottom: 25px;
-  padding-top: 25px;
 }
 
 .services__item-list {
   display: flex;
   flex-direction: column;
+  padding: 15px 15px 15px 20px;
   height: 100%;
   width: 55%;
+  background-color: #f6f7fa;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .services__item-second {
   width: 100%;
-  padding: $item__padding;
   font-size: 20px;
-  background-color: #f6f7fa;
-  border-radius: 15px;
-  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.services__item-second::marker {
+  content: '- ';
 }
 
 .services__item-second:not(:last-child) {
@@ -272,6 +275,11 @@ $item__padding: 15px;
 
 .services__item:first-child .services__item-title {
   padding-right: 130px;
+}
+
+.services__list-endtext {
+  font-size: 18px;
+  text-align: center;
 }
 
 .weight700 {
